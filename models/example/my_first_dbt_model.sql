@@ -17,8 +17,8 @@ with source_data as (
 
 )
 
-select *
-from source_data
+select salary
+from dup_test_entry
 
 /*
     Uncomment the line below to remove records with null `id` values
